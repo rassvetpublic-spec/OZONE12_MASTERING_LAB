@@ -11,6 +11,9 @@
 ## R1 — Mandatory P0 backend qualification
 
 - [x] P0.0 Environment Lock: Windows/REAPER/Ozone/Python/render baseline.
+- [x] Реализовать autonomous P0 evaluator, evidence contract и negative self-test.
+- [x] Реализовать единый PowerShell entry point и external workspace initializer.
+- [x] Реализовать safe P0.1 command-line render runner без FX.
 - [ ] P0.1 Dry Harness: минимум три D0 renders без Ozone.
 - [ ] P0.2 L0 manual GUI/XML Oracle for S0/S1/S2.
 - [ ] P0.3 L1 Frozen RPP.
@@ -77,4 +80,3 @@ Session audio, titles, exact XML, metrics and subjective notes remain outside re
 - [ ] Remove session identifiers and per-session numbers before publication.
 - [ ] Never promote a single winner into a universal default.
 - [ ] Version frozen Sources package separately from live repository architecture.
-

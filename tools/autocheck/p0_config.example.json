@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "expected_environment": {
+    "os": {
+      "caption_contains": "Windows 11",
+      "architecture": "X64"
+    },
+    "powershell_version": "7.6.3",
+    "python_version": "3.12",
+    "reaper": {
+      "exists": true,
+      "file_version_prefix": "7.78"
+    },
+    "ozone_vst3": {
+      "exists": true,
+      "file_version_prefix": "12.0.2"
+    }
+  },
+  "expected_plugin": {
+    "plugin_identity": "Ozone 12 VST3",
+    "plugin_version": "120002",
+    "plugin_build": "1331"
+  },
+  "source_wav": "input/source.wav",
+  "dry_renders": [
+    "p0_1_dry/D0_1.wav",
+    "p0_1_dry/D0_2.wav",
+    "p0_1_dry/D0_3.wav"
+  ],
+  "dry_harness_manifest": "p0_1_dry/dry_harness_runs.json",
+  "states": {
+    "S0": {
+      "L0": {"wav": "states/S0/L0/render.wav", "readback": "states/S0/L0/readback.json"},
+      "L1": {"wav": "states/S0/L1/render.wav", "readback": "states/S0/L1/readback.json"},
+      "L2": {"wav": "states/S0/L2/render.wav", "readback": "states/S0/L2/readback.json"},
+      "L3": {"wav": "states/S0/L3/render.wav", "readback": "states/S0/L3/readback.json"}
+    },
+    "S1": {
+      "L0": {"wav": "states/S1/L0/render.wav", "readback": "states/S1/L0/readback.json"},
+      "L1": {"wav": "states/S1/L1/render.wav", "readback": "states/S1/L1/readback.json"},
+      "L2": {"wav": "states/S1/L2/render.wav", "readback": "states/S1/L2/readback.json"},
+      "L3": {"wav": "states/S1/L3/render.wav", "readback": "states/S1/L3/readback.json"}
+    },
+    "S2": {
+      "L0": {"wav": "states/S2/L0/render.wav", "readback": "states/S2/L0/readback.json"},
+      "L1": {"wav": "states/S2/L1/render.wav", "readback": "states/S2/L1/readback.json"},
+      "L2": {"wav": "states/S2/L2/render.wav", "readback": "states/S2/L2/readback.json"},
+      "L3": {"wav": "states/S2/L3/render.wav", "readback": "states/S2/L3/readback.json"}
+    }
+  },
+  "selected_backend": "L2",
+  "backend_repeat_renders": [
+    "backend_repeats/repeat_1.wav",
+    "backend_repeats/repeat_2.wav",
+    "backend_repeats/repeat_3.wav"
+  ],
+  "l4_probe": {
+    "readback": "l4/readback.json"
+  },
+  "negative_tests": [
+    {
+      "name": "wrong_target_hash",
+      "result": "negative/wrong_target_hash/result.json",
+      "output_dir": "negative/wrong_target_hash/output"
+    },
+    {
+      "name": "api_failure",
+      "result": "negative/api_failure/result.json",
+      "output_dir": "negative/api_failure/output"
+    },
+    {
+      "name": "readback_mismatch",
+      "result": "negative/readback_mismatch/result.json",
+      "output_dir": "negative/readback_mismatch/output"
+    }
+  ]
+}

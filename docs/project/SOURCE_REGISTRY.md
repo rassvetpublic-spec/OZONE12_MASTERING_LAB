@@ -5,10 +5,11 @@
 1. Project Instructions.
 2. `docs/project/ACTIVE_CURRENT.md`.
 3. `docs/project/ARCHITECTURE_v1.md` for runtime/P0 decisions.
-4. `docs/00_READ_FIRST_SOURCE_OF_TRUTH.md` for mastering process/source rules.
-5. Universal Core v1.3.
-6. Generic profiles, tables, validation и tools.
-7. Архивные sources — context/reference, но не current authority.
+4. `docs/16_AUTONOMOUS_CHECKS.md` for executable check/evidence contract.
+5. `docs/00_READ_FIRST_SOURCE_OF_TRUTH.md` for mastering process/source rules.
+6. Universal Core v1.3.
+7. Generic profiles, tables, validation и tools.
+8. Архивные sources — context/reference, но не current authority.
 
 ## Активные источники
 
@@ -16,6 +17,7 @@
 |---|---|---|
 | `docs/project/ACTIVE_CURRENT.md` | текущее состояние и следующий gate | ACTIVE |
 | `docs/project/ARCHITECTURE_v1.md` | runtime architecture и mandatory P0 Gate | ACTIVE / APPROVED |
+| `docs/16_AUTONOMOUS_CHECKS.md` | executable repository/P0 check contract | ACTIVE |
 | `docs/project/PROCESS_ONLY_POLICY.md` | граница допустимого знания | ACTIVE |
 | unpacked repository tree | редактируемая process-only версия | ACTIVE |
 | `dist/OZONE12_MASTERING_LAB_UNIVERSAL_CORE_v1_3.zip` | frozen process package для ChatGPT Project Sources | ACTIVE / FROZEN v1.3 |
@@ -65,4 +67,3 @@ Universal Core v1.3 имеет зафиксированный hash и не пе�
 5. выполнить process-only review;
 6. обновить manifests/hashes и пройти CI;
 7. явно отметить статус `ACTIVE`, `FROZEN`, `SUPERSEDED` или `REFERENCE`.
-
