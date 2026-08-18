@@ -99,6 +99,11 @@ Master Rebalance — optional
 - XML patch, ElementChain validation и stage toolkit;
 - automatic mastering meter: drum attack, mono loss, decoded codec peaks;
 - architecture v1 и mandatory P0 Gate.
+- autonomous repository/P0 checker с JSON/Markdown reports, evidence manifest и fail-closed `PASS/FAIL/BLOCKED` status;
+- PowerShell entry point и external P0 workspace initializer.
+- safe P0.1 runner для трёх последовательных D0 command-line renders без FX.
+
+Автономный checker не означает, что P0 пройден: фактические REAPER/Ozone render/readback artifacts ещё должны быть получены на зафиксированной Windows workstation.
 
 ## Следующий активный этап
 
@@ -106,4 +111,3 @@ Master Rebalance — optional
 2. Зафиксировать фактический determinism baseline до назначения equality tolerances.
 3. Выполнить L0–L4, S2 и negative Render Gate qualification.
 4. Только после полного P0 PASS начинать production web/runtime automation.
-

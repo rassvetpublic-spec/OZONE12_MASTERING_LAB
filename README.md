@@ -100,11 +100,34 @@ python -m pip install -r requirements-analysis.txt
 
 Для codec audit дополнительно требуется `ffmpeg`/`ffprobe`.
 
+## Autonomous checks
+
+Все repository gates запускаются одной командой:
+
+```bash
+python tools/autocheck/oz12_autocheck.py repo \
+  --outdir reports/autocheck/repository
+```
+
+Полный Windows/P0 контур:
+
+```powershell
+pwsh -File tools/autocheck/Invoke-Ozone12Checks.ps1 `
+  -Mode All `
+  -P0Config "D:\OZONE12_P0\p0_config.json" `
+  -OutDir "D:\OZONE12_P0\reports"
+```
+
+Checker возвращает `PASS`, `FAIL` или `BLOCKED`, пишет JSON/Markdown и никогда не считает отсутствующее P0 evidence успешной проверкой. Контракт и создание внешнего workspace: `docs/16_AUTONOMOUS_CHECKS.md`.
+
+P0.1 Dry Harness также имеет отдельный безопасный runner `tools/autocheck/Invoke-DryHarness.ps1` для трёх последовательных REAPER command-line renders.
+
 ## Текущий статус
 
 - Universal Core: `v1.3`;
 - процессные XML/T-S знания build 1331 консолидированы;
 - automatic meter реализован и проходит synthetic self-test;
+- autonomous repository/P0 checker реализован и имеет positive/negative self-test;
 - следующий этап — real-world validation с публикацией только обезличенных переносимых выводов.
 
 См. `docs/project/ACTIVE_CURRENT.md`, `docs/project/PROCESS_ONLY_POLICY.md` и `docs/project/ROADMAP.md`.

@@ -28,17 +28,23 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
-      - name: Verify archive
-        run: unzip -t dist/OZONE12_MASTERING_LAB_UNIVERSAL_CORE_v1_3.zip
+      - name: Parse PowerShell tools
+        shell: pwsh
+        run: |
+          Get-ChildItem tools/autocheck/*.ps1 | ForEach-Object {
+            $tokens = $null
+            $errors = $null
+            [void][System.Management.Automation.Language.Parser]::ParseFile(
+              $_.FullName,
+              [ref]$tokens,
+              [ref]$errors
+            )
+            if ($errors.Count -gt 0) {
+              throw ($errors | Format-List | Out-String)
+            }
+          }
 
-      - name: Compile Python tools
-        run: python -m compileall -q tools
-
-      - name: Verify process-only scope
-        run: python tools/validate_process_only_scope.py
-
-      - name: Verify manifests
-        run: python tools/refresh_manifests.py
-
-      - name: Automatic meter self-test
-        run: python tools/stage_toolkit/oz12_mastering_meter.py --self-test
+      - name: Run autonomous repository gate
+        run: >-
+          python tools/autocheck/oz12_autocheck.py repo
+          --outdir reports/autocheck/repository

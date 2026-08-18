@@ -1,8 +1,8 @@
 path,bytes,role
 .gitattributes,33,support
-.github/workflows/validate.yml,1075,repository automation
+.github/workflows/validate.yml,1254,repository automation
 .gitignore,159,support
-README.md,4343,support
+README.md,5351,support
 checklists/FINAL_APPROVAL_CHECKLIST.md,1004,support
 checklists/PRE_RENDER_CHECKLIST.md,699,support
 dist/OZONE12_MASTERING_LAB_UNIVERSAL_CORE_v1_3.zip,200844,release/source bundle
@@ -22,12 +22,13 @@ docs/12_DO_NOT_INCLUDE_TRACK_SPECIFIC_DATA.md,1124,priority rule document
 docs/13_CONFIRMED_XML_SCHEMA_BUILD_1331.md,1405,priority rule document
 docs/14_VALIDATED_STAGE_AND_FINALIZATION_LESSONS.md,3714,priority rule document
 docs/15_AUTOMATIC_MASTERING_METER.md,5173,priority rule document
-docs/project/ACTIVE_CURRENT.md,3608,priority rule document
+docs/16_AUTONOMOUS_CHECKS.md,6072,priority rule document
+docs/project/ACTIVE_CURRENT.md,4139,priority rule document
 docs/project/ARCHITECTURE_v1.md,15178,priority rule document
 docs/project/PROCESS_ONLY_POLICY.md,2104,priority rule document
 docs/project/REPOSITORY_MANIFEST_SCOPE.md,683,priority rule document
-docs/project/ROADMAP.md,3328,priority rule document
-docs/project/SOURCE_REGISTRY.md,3439,priority rule document
+docs/project/ROADMAP.md,3599,priority rule document
+docs/project/SOURCE_REGISTRY.md,3598,priority rule document
 docs/project/UNIVERSAL_CORE_PACKAGE_v1_3.md,6737,priority rule document
 migration/PROJECT_INSTRUCTIONS_SNIPPET.md,1497,support
 migration/WHAT_TO_KEEP_IN_SOURCES.md,894,support
@@ -89,6 +90,11 @@ tables/source_replacement_coverage_v1_3.csv,1417,priority reference table
 tables/ts_capability_matrix_v1_3.csv,1282,priority reference table
 templates/SOURCE_REGISTRY_TEMPLATE.md,324,support
 templates/STAGE_DECISION_TEMPLATE.md,664,support
+tools/autocheck/Invoke-DryHarness.ps1,3354,tool/script/schema
+tools/autocheck/Invoke-Ozone12Checks.ps1,7236,tool/script/schema
+tools/autocheck/New-P0Workspace.ps1,3376,tool/script/schema
+tools/autocheck/oz12_autocheck.py,43034,tool/script/schema
+tools/autocheck/p0_config.example.json,2571,tool/script/schema
 tools/refresh_manifests.py,3892,tool/script/schema
 tools/stage_toolkit/oz12_analyze_stage.py,5972,tool/script/schema
 tools/stage_toolkit/oz12_common.py,10512,tool/script/schema
@@ -111,5 +117,5 @@ tools/xml_patch/validate_confirmed_ts_schema.py,1056,tool/script/schema
 tools/xml_patch/validate_elementchain.py,1206,tool/script/schema
 validation/AUTOMATIC_MASTERING_METER_VALIDATION.md,1632,validation/audit
 validation/CONFLICT_SCAN.csv,1601,validation/audit
-validation/FILE_AUDIT.csv,15560,validation/audit
+validation/FILE_AUDIT.csv,16316,validation/audit
 validation/MENTAL_EXPERIMENT_REPORT.md,2616,validation/audit
