@@ -1,0 +1,5 @@
+name: open_modern_pop
+role: pop/dance/modern vocal where air and width matter
+strategy: "less high suppression, controlled sustain width, moderate Clarity, codec audit"
+risk: "8-12 kHz glass and 12-18 kHz sand"
+required_check: "MP3/AAC stress test and vocal brightness by ear"

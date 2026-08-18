@@ -1,0 +1,21 @@
+ElementID,ParamID,Meaning,Typical values / notes
+Stereo Imager,Processing Mode,Switch Imager processing mode; observed 1 for Transient/Sustain,1
+Stereo Imager,Transient/Sustain Selection,Selected T/S view/tab in UI; observed 1 in T/S presets,1
+Stereo Imager,Module Amount,Overall Imager intensity,40-70
+Stereo Imager,Crossover Cutoff 1,Band 1/2 crossover Hz,120-180
+Stereo Imager,Crossover Cutoff 2,Band 2/3 crossover Hz,2500-3500
+Stereo Imager,Crossover Cutoff 3,Band 3/4 crossover Hz,10000-12000
+Stereo Imager,Band 1 Width Percent,Transient width band 1,negative for low-end focus
+Stereo Imager,Band 2 Width Percent,Transient width band 2,0..+10 normally
+Stereo Imager,Band 3 Width Percent,Transient width band 3,0..+15 normally
+Stereo Imager,Band 4 Width Percent,Transient width band 4,0..+10 normally
+Stereo Imager,Aux: Band 1 Width Percent,Sustain width band 1,-5..0
+Stereo Imager,Aux: Band 2 Width Percent,Sustain width band 2,+10..+30
+Stereo Imager,Aux: Band 3 Width Percent,Sustain width band 3,+45..+75
+Stereo Imager,Aux: Band 4 Width Percent,Sustain width band 4,+30..+55
+Stereo Imager,Recover Sides Enabled,Transient Recover Sides enable,1 if using but gain usually 0
+Stereo Imager,Recover Sides Gain Offset (dB),Transient Recover Sides gain,0.0 recommended
+Stereo Imager,Aux: Recover Sides Enabled,Sustain Recover Sides enable,1
+Stereo Imager,Aux: Recover Sides Gain Offset (dB),Sustain Recover Sides gain,0.5..1.2 dB
+Stereo Imager,Enable Stereoizer,Stereoize on/off,0 by default
+Stereo Imager,Stereoizer Mode,"Stereoize mode selector, not same as enable",do not treat as on/off

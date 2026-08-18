@@ -1,0 +1,31 @@
+profile: dark_gothic_streaming_safe
+processor: izotope_ozone_12_advanced_only
+host: reaper_or_ableton_render_host
+release_format:
+  sample_rate: 48000
+  bit_depth: 24
+  type: wav
+targets:
+  integrated_lufs: [-12.3, -11.5]
+  true_peak_dbtp: -2.0
+  lra_preserve: true
+forbidden_defaults:
+  stereoize: false
+  soft_clip: false
+  recover_sides_max_db_without_test: 1.2
+  normalize_export: false
+  external_limiter_after_ozone: false
+chain_preferred:
+  - Master Rebalance
+  - Equalizer
+  - Impact
+  - Clarity
+  - Stabilizer
+  - Stereo Imager
+  - Dynamic EQ
+  - Maximizer
+priorities:
+  - preserve_vocal_center
+  - reduce_clicks_6_12khz
+  - widen_sustain_more_than_transients
+  - avoid_phase_smear

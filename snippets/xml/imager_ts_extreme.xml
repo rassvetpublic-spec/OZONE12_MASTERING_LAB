@@ -1,0 +1,17 @@
+<!-- Stereo Imager Transient/Sustain EXTREME: boundary test, not default final -->
+<Param ElementID="Stereo Imager" ParamID="Processing Mode" Value="1" />
+<Param ElementID="Stereo Imager" ParamID="Transient/Sustain Selection" Value="1" />
+<Param ElementID="Stereo Imager" ParamID="Module Amount" Value="68,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Enable Stereoizer" Value="0" />
+<!-- Transient -->
+<Param ElementID="Stereo Imager" ParamID="Band 1 Width Percent" Value="-25,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Band 2 Width Percent" Value="-5,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Band 3 Width Percent" Value="0,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Band 4 Width Percent" Value="0,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Recover Sides Gain Offset (dB)" Value="0,00000000" />
+<!-- Sustain -->
+<Param ElementID="Stereo Imager" ParamID="Aux: Band 1 Width Percent" Value="0,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Aux: Band 2 Width Percent" Value="30,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Aux: Band 3 Width Percent" Value="90,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Aux: Band 4 Width Percent" Value="70,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Aux: Recover Sides Gain Offset (dB)" Value="1,80000000" />

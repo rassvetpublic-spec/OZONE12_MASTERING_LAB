@@ -1,0 +1,19 @@
+profile: modern_pop_wow_streaming_safe
+processor: izotope_ozone_12_advanced_only
+host: reaper_or_ableton_render_host
+release_format:
+  sample_rate: 48000
+  bit_depth: 24
+  type: wav
+targets:
+  integrated_lufs: [-12.8, -11.8]
+  true_peak_dbtp: -2.0
+  mp3_codec_audit: required
+style:
+  vocal: intimate_male_or_lead_center
+  chorus: wide_choir_sustain
+  kick_bass: centered
+suggested_blocks:
+  master_rebalance: vocal_small_plus
+  imager: transient_sustain_wide_sustain
+  maximizer: streaming_safe_no_soft_clip

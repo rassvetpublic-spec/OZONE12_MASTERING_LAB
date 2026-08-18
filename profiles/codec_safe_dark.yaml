@@ -1,0 +1,5 @@
+name: codec_safe_dark
+role: harsh/SUNO/MP3-risk material where upper glass is dangerous
+dynamic_eq: "control sustain 6-8, 8-12, 12-18 kHz"
+risk: "too dark, matte vocal, lost air"
+rule: "If user hears over-dark result, make open/wide control pass; do not say listeners can EQ it."

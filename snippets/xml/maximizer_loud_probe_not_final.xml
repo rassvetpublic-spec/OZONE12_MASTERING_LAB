@@ -1,0 +1,11 @@
+<Maximizer Enabled="1">
+    <Param ElementID="Maximizer" ParamID="Mode" Value="3" />
+    <Param ElementID="Maximizer" ParamID="Margin" Value="-1,50000000" />
+    <Param ElementID="Maximizer" ParamID="Prevent Intersample Clipping" Value="1" />
+    <Param ElementID="Maximizer" ParamID="Character" Value="2,50000000" />
+    <Param ElementID="Maximizer" ParamID="Gain" Value="4,00000000" />
+    <Param ElementID="Maximizer" ParamID="Target Loudness [dB]" Value="-11,00000000" />
+    <Param ElementID="Maximizer" ParamID="Soft Clip Amount" Value="0,00000000" />
+    <Param ElementID="Maximizer" ParamID="Soft Clip Enable" Value="0" />
+    <ExtraBytes ElementID="Maximizer" Data="" />
+</Maximizer>

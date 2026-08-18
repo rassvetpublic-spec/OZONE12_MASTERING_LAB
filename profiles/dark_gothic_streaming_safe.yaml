@@ -1,0 +1,5 @@
+name: dark_gothic_streaming_safe
+role: optional profile only; not universal default
+applies_when: "current style explicitly dark/gothic/industrial/horror/cinematic"
+strategy: "dense low-mid control, safe top, dramatic width, codec-safe true peak"
+warning: "Do not apply this profile to pop/acoustic/rap/dance unless current track asks for it."

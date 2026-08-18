@@ -1,0 +1,9 @@
+<!-- Impact: controlled opt, less clicky than strong -->
+<Param ElementID="Impact" ParamID="GlobalAmount" Value="23,00000000" />
+<Param ElementID="Impact" ParamID="Envelope" Value="50,00000000" />
+<Param ElementID="Impact" ParamID="Aux: Envelope" Value="50,00000000" />
+<Param ElementID="Impact" ParamID="Band 1 Amount" Value="-8,00000000" />
+<Param ElementID="Impact" ParamID="Band 2 Amount" Value="17,00000000" />
+<Param ElementID="Impact" ParamID="Band 3 Amount" Value="19,00000000" />
+<Param ElementID="Impact" ParamID="Band 4 Amount" Value="3,00000000" />
+<Param ElementID="Impact" ParamID="Auto Gain Enable" Value="1" />

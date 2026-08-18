@@ -1,0 +1,15 @@
+<Maximizer Enabled="1">
+    <Param ElementID="Maximizer" ParamID="Mode" Value="3" />
+    <Param ElementID="Maximizer" ParamID="Margin" Value="-2,00001144" />
+    <Param ElementID="Maximizer" ParamID="LowLevelBoostWetAmount" Value="1,10000000" />
+    <Param ElementID="Maximizer" ParamID="Prevent Intersample Clipping" Value="1" />
+    <Param ElementID="Maximizer" ParamID="Character" Value="2,20000000" />
+    <Param ElementID="Maximizer" ParamID="EnableLowLevelBoost" Value="1" />
+    <Param ElementID="Maximizer" ParamID="Gain" Value="2,60000000" />
+    <Param ElementID="Maximizer" ParamID="Stereo Link" Value="60,00000000" />
+    <Param ElementID="Maximizer" ParamID="Stereo Transient Link Amount" Value="60,00000000" />
+    <Param ElementID="Maximizer" ParamID="Target Loudness [dB]" Value="-11,80000000" />
+    <Param ElementID="Maximizer" ParamID="Soft Clip Amount" Value="0,00000000" />
+    <Param ElementID="Maximizer" ParamID="Soft Clip Enable" Value="0" />
+    <ExtraBytes ElementID="Maximizer" Data="" />
+</Maximizer>

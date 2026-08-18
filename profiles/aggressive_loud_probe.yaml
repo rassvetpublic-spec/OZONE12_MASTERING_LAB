@@ -1,0 +1,5 @@
+name: aggressive_loud_probe
+role: loudness test only, not default final
+target: "louder than main candidate"
+risks: "codec artifacts, transient loss, decoded peak rise"
+rule: "Never final without codec audit and user approval."

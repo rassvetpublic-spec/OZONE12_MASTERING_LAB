@@ -1,0 +1,4 @@
+<!-- Master Rebalance: vocal/source small boost; SourceType enum must be GUI-verified -->
+<Param ElementID="Master Rebalance" ParamID="SourceType" Value="0" />
+<Param ElementID="Master Rebalance" ParamID="SourceGain" Value="0,50000000" />
+<Param ElementID="Master Rebalance" ParamID="Auto Gain Enable" Value="1" />
