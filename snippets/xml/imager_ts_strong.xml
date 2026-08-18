@@ -1,0 +1,22 @@
+<!-- Stereo Imager Transient/Sustain STRONG: tested as WideB-like candidate -->
+<Param ElementID="Stereo Imager" ParamID="Processing Mode" Value="1" />
+<Param ElementID="Stereo Imager" ParamID="Transient/Sustain Selection" Value="1" />
+<Param ElementID="Stereo Imager" ParamID="Module Amount" Value="58,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Enable Stereoizer" Value="0" />
+<Param ElementID="Stereo Imager" ParamID="Crossover Cutoff 1" Value="165,70428467" />
+<Param ElementID="Stereo Imager" ParamID="Crossover Cutoff 2" Value="3484,03076172" />
+<Param ElementID="Stereo Imager" ParamID="Crossover Cutoff 3" Value="11999,37695312" />
+<!-- Transient -->
+<Param ElementID="Stereo Imager" ParamID="Band 1 Width Percent" Value="-20,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Band 2 Width Percent" Value="0,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Band 3 Width Percent" Value="8,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Band 4 Width Percent" Value="5,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Recover Sides Enabled" Value="1" />
+<Param ElementID="Stereo Imager" ParamID="Recover Sides Gain Offset (dB)" Value="0,00000000" />
+<!-- Sustain -->
+<Param ElementID="Stereo Imager" ParamID="Aux: Band 1 Width Percent" Value="-5,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Aux: Band 2 Width Percent" Value="22,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Aux: Band 3 Width Percent" Value="72,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Aux: Band 4 Width Percent" Value="52,00000000" />
+<Param ElementID="Stereo Imager" ParamID="Aux: Recover Sides Enabled" Value="1" />
+<Param ElementID="Stereo Imager" ParamID="Aux: Recover Sides Gain Offset (dB)" Value="1,20000000" />

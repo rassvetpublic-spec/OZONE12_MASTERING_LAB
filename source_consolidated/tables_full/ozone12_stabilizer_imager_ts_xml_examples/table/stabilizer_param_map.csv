@@ -1,0 +1,4 @@
+ElementID,ParamID,Meaning,Typical values / notes
+Stabilizer,Amount,Overall Stabilizer processing strength,"8-12 dark, 14-18 safe, 20-24 open/polished"
+Stabilizer,Target,Target curve/profile enum,leave unchanged unless verified in GUI/template
+Stabilizer,Auto Gain Enable,Auto-gain for Stabilizer,usually 1

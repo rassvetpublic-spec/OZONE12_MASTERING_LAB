@@ -1,0 +1,7 @@
+<!-- Clarity + Stabilizer: open/polished but not extreme -->
+<Param ElementID="Clarity" ParamID="Amount" Value="24,00000000" />
+<Param ElementID="Clarity" ParamID="Tilt" Value="-0,80000000" />
+<Param ElementID="Clarity" ParamID="Auto Gain Enable" Value="1" />
+<Param ElementID="Stabilizer" ParamID="Amount" Value="22,00000000" />
+<Param ElementID="Stabilizer" ParamID="Auto Gain Enable" Value="1" />
+<!-- Stabilizer Target enum: leave existing unless GUI-verified -->

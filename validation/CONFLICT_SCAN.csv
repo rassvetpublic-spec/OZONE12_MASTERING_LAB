@@ -1,0 +1,17 @@
+check,scope,status,note
+WAV versus MP3 mastering source,priority docs/skill,PASS,WAV is source; MP3 is reference or codec output
+ElementChain versus Enabled,priority docs/schema,PASS,ElementChain remains active-chain authority
+Optional Master Rebalance treated as default,priority docs/tables,PASS,optional pre-stage with GUI-verified track values only
+Calibration values used as defaults,priority docs/skills,PASS,explicitly prohibited
+Aux globally equals Sustain,priority docs/skills,PASS,Impact counterexample retained
+Inaudible stage treated as complete,workflow,PASS,one-module boundary probe required after path verification
+Manual GUI winner overwritten,source precedence,PASS,user-selected GUI XML becomes current base
+Drum-forward low DynEQ processing,profile strategy,PASS,low bands require explicit kick/bass problem
+Prevent Antiphase treated as mono proof,Imager safety,PASS,mono instrument loss is hard reject
+Inactive Maximizer risk values inherited,Maximizer activation,PASS,risk switches explicitly neutralized for first candidate
+Target Loudness treated as actual drive,Maximizer semantics,PASS,Gain is actual loudness drive
+Fixed LUFS above transient integrity,decision logic,PASS,audible drum attack loss is stop
+WAV ceiling treated as codec guarantee,codec audit,PASS,decoded true peak measured per codec
+External conversion replaces native final,export authority,PASS,native DAW/Ozone final is authoritative
+v1.2 remains active after migration,migration,PASS,old v1.2 removed only after v1.3 is active
+track-specific winner as default,scope,PASS,exact per-track values prohibited

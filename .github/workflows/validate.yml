@@ -1,0 +1,44 @@
+name: validate
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  repository:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-analysis.txt
+
+      - name: Install analysis dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-analysis.txt
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Verify archive
+        run: unzip -t dist/OZONE12_MASTERING_LAB_UNIVERSAL_CORE_v1_3.zip
+
+      - name: Compile Python tools
+        run: python -m compileall -q tools
+
+      - name: Verify process-only scope
+        run: python tools/validate_process_only_scope.py
+
+      - name: Verify manifests
+        run: python tools/refresh_manifests.py
+
+      - name: Automatic meter self-test
+        run: python tools/stage_toolkit/oz12_mastering_meter.py --self-test

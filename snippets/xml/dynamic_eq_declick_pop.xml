@@ -1,0 +1,17 @@
+<!-- Dynamic EQ: pop de-click/de-ess starting point -->
+<Param ElementID="Dynamic EQ" ParamID="Band 1 Frequency" Value="250,00000000" />
+<Param ElementID="Dynamic EQ" ParamID="Band 1 Gain" Value="-0,70000000" />
+<Param ElementID="Dynamic EQ" ParamID="Band 1 Q" Value="1,20000000" />
+<Param ElementID="Dynamic EQ" ParamID="Band 1 Threshold" Value="-24,00000000" />
+<Param ElementID="Dynamic EQ" ParamID="Band 3 Frequency" Value="3200,00000000" />
+<Param ElementID="Dynamic EQ" ParamID="Band 3 Gain" Value="-0,70000000" />
+<Param ElementID="Dynamic EQ" ParamID="Band 3 Q" Value="3,00000000" />
+<Param ElementID="Dynamic EQ" ParamID="Band 3 Threshold" Value="-24,50000000" />
+<Param ElementID="Dynamic EQ" ParamID="Band 4 Frequency" Value="7200,00000000" />
+<Param ElementID="Dynamic EQ" ParamID="Band 4 Gain" Value="-1,40000000" />
+<Param ElementID="Dynamic EQ" ParamID="Band 4 Q" Value="4,50000000" />
+<Param ElementID="Dynamic EQ" ParamID="Band 4 Threshold" Value="-26,00000000" />
+<Param ElementID="Dynamic EQ" ParamID="Band 5 Frequency" Value="12000,00000000" />
+<Param ElementID="Dynamic EQ" ParamID="Band 5 Gain" Value="-0,80000000" />
+<Param ElementID="Dynamic EQ" ParamID="Band 5 Q" Value="3,00000000" />
+<Param ElementID="Dynamic EQ" ParamID="Band 5 Threshold" Value="-27,00000000" />

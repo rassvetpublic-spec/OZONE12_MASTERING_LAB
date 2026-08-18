@@ -1,0 +1,114 @@
+path,bytes,role
+.gitattributes,33,support
+.github/workflows/validate.yml,1075,repository automation
+.gitignore,159,support
+README.md,4343,support
+checklists/FINAL_APPROVAL_CHECKLIST.md,1004,support
+checklists/PRE_RENDER_CHECKLIST.md,699,support
+dist/OZONE12_MASTERING_LAB_UNIVERSAL_CORE_v1_3.zip,200844,release/source bundle
+docs/00_READ_FIRST_SOURCE_OF_TRUTH.md,2661,priority rule document
+docs/01_WORKFLOW_ALL_TRACKS.md,4222,priority rule document
+docs/02_XML_RULEBOOK.md,3750,priority rule document
+docs/03_TRANSIENT_SUSTAIN_PROTOCOL.md,4156,priority rule document
+docs/04_MODULE_PLAYBOOK.md,2751,priority rule document
+docs/05_MAXIMIZER_RULES.md,2487,priority rule document
+docs/06_METRICS_DECISION_LOGIC.md,3658,priority rule document
+docs/07_CODEC_AUDIT_AND_EXPORT.md,3262,priority rule document
+docs/08_SOURCE_CONFLICT_PROTOCOL.md,1755,priority rule document
+docs/09_TROUBLESHOOTING_XML_AUDIO.md,2129,priority rule document
+docs/10_PROFILE_SELECTION.md,1125,priority rule document
+docs/11_PROMPT_USAGE_RULES.md,1080,priority rule document
+docs/12_DO_NOT_INCLUDE_TRACK_SPECIFIC_DATA.md,1124,priority rule document
+docs/13_CONFIRMED_XML_SCHEMA_BUILD_1331.md,1405,priority rule document
+docs/14_VALIDATED_STAGE_AND_FINALIZATION_LESSONS.md,3714,priority rule document
+docs/15_AUTOMATIC_MASTERING_METER.md,5173,priority rule document
+docs/project/ACTIVE_CURRENT.md,2615,priority rule document
+docs/project/PROCESS_ONLY_POLICY.md,2104,priority rule document
+docs/project/REPOSITORY_MANIFEST_SCOPE.md,683,priority rule document
+docs/project/ROADMAP.md,2521,priority rule document
+docs/project/SOURCE_REGISTRY.md,1907,priority rule document
+docs/project/UNIVERSAL_CORE_PACKAGE_v1_3.md,6737,priority rule document
+migration/PROJECT_INSTRUCTIONS_SNIPPET.md,1497,support
+migration/WHAT_TO_KEEP_IN_SOURCES.md,894,support
+profiles/aggressive_loud_probe.yaml,228,optional mastering profile
+profiles/codec_safe_dark.yaml,280,optional mastering profile
+profiles/dark_gothic_streaming_safe.yaml,344,optional mastering profile
+profiles/drum_forward_commercial.yaml,913,optional mastering profile
+profiles/generic_streaming_safe.yaml,357,optional mastering profile
+profiles/open_modern_pop.yaml,277,optional mastering profile
+profiles/wide_wow_streaming_safe.yaml,517,optional mastering profile
+prompts/CODEC_AUDIT_UNIVERSAL.md,1023,support
+prompts/OZONE12_MASTERING_LAB_PROMPTS_FULL_ARCHIVAL.md,57511,support
+prompts/START_NEW_CHAT_UNIVERSAL.md,1373,support
+requirements-analysis.txt,31,support
+skills/OZONE12_XML_TRANSIENT_SUSTAIN_SKILL.md,10585,priority reusable skill/data
+skills/OZONE12_XML_TS_PARAM_MAP.csv,2494,priority reusable skill/data
+snippets/xml/clarity_stabilizer_open.xml,468,support
+snippets/xml/dynamic_eq_declick_pop.xml,1292,support
+snippets/xml/equalizer_modern_pop_open_safe.xml,741,support
+snippets/xml/imager_ts_extreme.xml,1340,support
+snippets/xml/imager_ts_safe.xml,1725,support
+snippets/xml/imager_ts_strong.xml,1759,support
+snippets/xml/impact_opt_controlled.xml,627,support
+snippets/xml/master_rebalance_vocal_plus_0_5.xml,315,support
+snippets/xml/maximizer_loud_probe_not_final.xml,693,support
+snippets/xml/maximizer_mp3_codec_safe.xml,693,support
+snippets/xml/maximizer_streaming_safe.xml,1030,support
+snippets/xml/maximizer_wow_pop.xml,1030,support
+snippets/xml/stabilizer_dark.xml,313,support
+snippets/xml/stabilizer_open.xml,243,support
+snippets/xml/stabilizer_safe.xml,237,support
+snippets/xml/stereo_imager_transient_sustain_strong_safe.xml,1498,support
+source_consolidated/README.md,612,archival consolidated old source
+source_consolidated/explainers_full/ozone12_all_known_xml_settings/README.md,2064,archival consolidated old source
+source_consolidated/explainers_full/ozone12_all_known_xml_settings/docs/Ozone12_All_Known_XML_Settings_Explainer.md,17489,archival consolidated old source
+source_consolidated/explainers_full/ozone12_all_known_xml_settings/examples/troubleshooting.md,1106,archival consolidated old source
+source_consolidated/explainers_full/ozone12_all_known_xml_settings/profiles/dark_gothic_streaming_safe.yaml,691,archival consolidated old source
+source_consolidated/explainers_full/ozone12_all_known_xml_settings/profiles/modern_pop_wow_streaming_safe.yaml,509,archival consolidated old source
+source_consolidated/explainers_full/ozone12_maximizer_xml_examples/README.md,1676,archival consolidated old source
+source_consolidated/explainers_full/ozone12_maximizer_xml_examples/docs/Ozone12_Maximizer_XML_Explanation.md,13417,archival consolidated old source
+source_consolidated/explainers_full/ozone12_stabilizer_imager_ts_xml_examples/README.md,1252,archival consolidated old source
+source_consolidated/explainers_full/ozone12_stabilizer_imager_ts_xml_examples/docs/Ozone12_Stabilizer_Imager_TS_XML_Explanation.md,12246,archival consolidated old source
+source_consolidated/original_simple_sources/MEMORY_TO_SAVE.md,1506,archival consolidated old source
+source_consolidated/original_simple_sources/OZONE12_MASTERING_LAB_PROMPTS.md,56878,archival consolidated old source
+source_consolidated/original_simple_sources/OZONE12_XML_STRUCTURE_CURRENT.md,12142,archival consolidated old source
+source_consolidated/original_simple_sources/Ozone12_only_mastering_project_strategy.md,7951,archival consolidated old source
+source_consolidated/original_simple_sources/START_PROMPT_FOR_PROJECT.md,1226,archival consolidated old source
+source_consolidated/tables_full/ozone12_all_known_xml_settings/tables/module_quick_map.csv,1568,archival consolidated old source
+source_consolidated/tables_full/ozone12_all_known_xml_settings/tables/ozone12_observed_param_map.csv,75844,archival consolidated old source
+source_consolidated/tables_full/ozone12_maximizer_xml_examples/table/maximizer_param_map.csv,1207,archival consolidated old source
+source_consolidated/tables_full/ozone12_stabilizer_imager_ts_xml_examples/table/stabilizer_param_map.csv,306,archival consolidated old source
+source_consolidated/tables_full/ozone12_stabilizer_imager_ts_xml_examples/table/stereo_imager_ts_param_map.csv,1591,archival consolidated old source
+tables/OZONE12_MASTERING_DECISION_HEURISTICS_v1_3.csv,2055,priority reference table
+tables/OZONE12_MASTERING_METER_FIELDS_v1_3.csv,2063,priority reference table
+tables/OZONE12_XML_TS_PARAM_MAP_v1_3.csv,2505,priority reference table
+tables/maximizer_param_map_v1_3.csv,1186,priority reference table
+tables/module_quick_map_v1_3.csv,1688,priority reference table
+tables/source_replacement_coverage_v1_3.csv,1417,priority reference table
+tables/ts_capability_matrix_v1_3.csv,1282,priority reference table
+templates/SOURCE_REGISTRY_TEMPLATE.md,324,support
+templates/STAGE_DECISION_TEMPLATE.md,664,support
+tools/refresh_manifests.py,3892,tool/script/schema
+tools/stage_toolkit/oz12_analyze_stage.py,5972,tool/script/schema
+tools/stage_toolkit/oz12_common.py,10512,tool/script/schema
+tools/stage_toolkit/oz12_make_stage_pack.py,2339,tool/script/schema
+tools/stage_toolkit/oz12_mastering_meter.py,49235,tool/script/schema
+tools/stage_toolkit/oz12_xml_audit.py,4667,tool/script/schema
+tools/validate_process_only_scope.py,1119,tool/script/schema
+tools/xml_patch/Set-OzoneImagerTS.ps1,328,tool/script/schema
+tools/xml_patch/Set-OzoneKnownParams.ps1,346,tool/script/schema
+tools/xml_patch/Set-OzoneMaximizer.ps1,534,tool/script/schema
+tools/xml_patch/Set-OzoneStabilizer.ps1,874,tool/script/schema
+tools/xml_patch/dump_ozone_xml_params.py,1204,tool/script/schema
+tools/xml_patch/example_patch_streaming_safe.json,422,tool/script/schema
+tools/xml_patch/ozone12_confirmed_ts_schema_v1_3.json,5024,tool/script/schema
+tools/xml_patch/patch_ozone_imager_ts.py,3876,tool/script/schema
+tools/xml_patch/patch_ozone_maximizer.py,5860,tool/script/schema
+tools/xml_patch/patch_ozone_stabilizer.py,2680,tool/script/schema
+tools/xml_patch/patch_ozone_xml_params.py,1593,tool/script/schema
+tools/xml_patch/validate_confirmed_ts_schema.py,1056,tool/script/schema
+tools/xml_patch/validate_elementchain.py,1206,tool/script/schema
+validation/AUTOMATIC_MASTERING_METER_VALIDATION.md,1632,validation/audit
+validation/CONFLICT_SCAN.csv,1601,validation/audit
+validation/FILE_AUDIT.csv,15434,validation/audit
+validation/MENTAL_EXPERIMENT_REPORT.md,2616,validation/audit

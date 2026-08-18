@@ -1,0 +1,13 @@
+ParamID,Meaning,Typical safe values,Notes
+Mode,Maximizer algorithm/mode enum,3,Confirmed in working presets; verify GUI after import
+Gain,Main Maximizer input gain / loudness push,1.0 to 3.5 dB,This is the main sound-changing loudness control
+Margin,Output ceiling / margin,-2.0 dBTP streaming safe; -1.5 loud probe,Keep -2.0 for codec-safe streaming
+Prevent Intersample Clipping,True Peak/inter-sample protection,1,Use 1 for streaming masters
+Target Loudness [dB],Target LUFS display/learn target,-12.5 to -11.5,Does not guarantee output alone; Gain must change
+Character,Limiter character,2.0 to 3.0,Verify by ear; lower can be cleaner/more forward
+EnableLowLevelBoost,Upward compression enable,0 or 1,Use moderately; can thicken low-level detail
+LowLevelBoostWetAmount,Upward compression amount,0.5 to 1.1,Too high can over-densify
+Stereo Link,Stereo link/sustain link style control,60 to 70,Exact GUI label may differ; verify visually
+Stereo Transient Link Amount,Transient link control,60 to 70,Higher = more stable transients; lower = freer stereo
+Soft Clip Enable,Soft Clip on/off,0,Default project rule: keep off unless separate test
+Soft Clip Amount,Soft Clip amount,0,Keep 0 if Soft Clip disabled

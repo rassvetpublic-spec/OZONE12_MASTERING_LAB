@@ -1,0 +1,11 @@
+Old_source,Included_in_v1_3,Where,Can_delete_from_active_Sources
+Ozone12_only_mastering_project_strategy.md,yes exact archive + normalized rules,source_consolidated/original_simple_sources + docs,yes
+OZONE12_MASTERING_LAB_PROMPTS.md,yes exact archive + current usage rules,source_consolidated/original_simple_sources + prompts,yes
+OZONE12_XML_STRUCTURE_CURRENT.md,yes exact archive + normalized schema,source_consolidated/original_simple_sources + docs/02 + docs/13,yes
+MEMORY_TO_SAVE.md,yes exact archive + normalized rules,source_consolidated/original_simple_sources,yes
+START_PROMPT_FOR_PROJECT.md,yes exact archive + updated prompt,source_consolidated/original_simple_sources + prompts,yes
+OZONE12_STAGE_TOOLKIT_v1.zip,yes scripts without generated pycache,tools/stage_toolkit,yes
+Ozone12_Maximizer_XML_Examples.zip,yes docs/tables/scripts/snippets without track XML defaults,source_consolidated/explainers_full + tables/snippets/tools,yes
+Ozone12_Stabilizer_Imager_TS_XML_Examples.zip,yes docs/tables/scripts/snippets without track XML defaults,source_consolidated/explainers_full + tables/snippets/tools,yes
+Ozone12_All_Known_XML_Settings_Explainer.zip,yes docs/tables/scripts/snippets/profiles without track XML defaults,source_consolidated/explainers_full + tables/snippets/tools,yes
+OZONE12_MASTERING_LAB_UNIVERSAL_CORE_v1.2.zip,yes superseded by v1.3,active docs/skills/tables v1.3,yes after v1.3 is active

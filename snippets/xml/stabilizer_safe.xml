@@ -1,0 +1,4 @@
+<!-- Stabilizer SAFE streaming -->
+<Param ElementID="Stabilizer" ParamID="Amount" Value="14,00000000" />
+<!-- Target: leave from source XML unless verified in GUI -->
+<Param ElementID="Stabilizer" ParamID="Auto Gain Enable" Value="1" />

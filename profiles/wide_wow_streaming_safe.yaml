@@ -1,0 +1,8 @@
+name: wide_wow_streaming_safe
+role: wider, more impressive master without unsafe Stereoize
+width_strategy: "expand sustain more than transient"
+recover_sides_limit: "+1.2 dB without separate test"
+stereoize: "off by default"
+risk: "empty center, weak mono bass, lower correlation"
+required_check: "correlation, sample-aligned mono, Side/Mid by band, important instrument/vocal/bass center, codec audit"
+hard_reject: "Any important instrument that noticeably disappears in mono. Prevent Antiphase alone is not proof."

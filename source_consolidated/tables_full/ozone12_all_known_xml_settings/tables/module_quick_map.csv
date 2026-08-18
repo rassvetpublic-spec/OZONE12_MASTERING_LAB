@@ -1,0 +1,10 @@
+Module,KeyXML,Role,HowToPatch,Risk
+Global/ElementChain,"ExtraBytes ElementID=""ElementChain""",Active visible module chain/order,Base64 bytes: 00 + uint32 LE len + UTF-8 name; no count-prefix,Do not derive active chain from Enabled=1
+Master Rebalance,"SourceType, SourceGain, Auto Gain Enable",Stem-like rebalance,SourceType enum GUI-verify; SourceGain small dB moves,Useful but AI separation artifacts possible
+Equalizer,Band N Frequency/Gain/Q/Shape/Enable; Gain Scaling Amount,Static tonal EQ,"Use for broad tone, not dynamic clicks",Avoid excessive high shelf on SUNO/MP3
+Impact,"GlobalAmount, Envelope, Band N Amount, Crossovers",Transient/sustain impact and density,Good for punch; risky for click/pump,Top band conservative
+Clarity,"Amount, Tilt, Auto Gain Enable",Polish/clarity vs dark/open tilt,Amount 10-28; Tilt negative=dark,Too high = glossy/sterile
+Stabilizer,"Amount, Target, Auto Gain Enable",Tonal balance stabilization,Target enum GUI-verify,Not Transient/Sustain
+Stereo Imager,"Processing Mode, Band Width, Aux Band Width, Recover Sides, Stereoize",Width and T/S width,Processing Mode=1 observed as T/S; Aux=sustain,Stereoize off by default; Recover <=1.2 usually
+Dynamic EQ,Band N Freq/Gain/Q/Threshold/Enable,Dynamic de-ess/harshness/mud control,"Use for 2-4, 5-8, 8-12, 12-16 kHz",Threshold determines whether it actually works
+Maximizer,"Gain, Margin, True Peak, Target Loudness, Character, Mode, LowLevelBoost, Soft Clip",Final loudness/ceiling,"Gain is main loudness, Margin ceiling, True Peak on",Target LUFS alone does not guarantee output
