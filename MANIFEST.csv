@@ -22,11 +22,12 @@ docs/12_DO_NOT_INCLUDE_TRACK_SPECIFIC_DATA.md,1124,priority rule document
 docs/13_CONFIRMED_XML_SCHEMA_BUILD_1331.md,1405,priority rule document
 docs/14_VALIDATED_STAGE_AND_FINALIZATION_LESSONS.md,3714,priority rule document
 docs/15_AUTOMATIC_MASTERING_METER.md,5173,priority rule document
-docs/project/ACTIVE_CURRENT.md,2615,priority rule document
+docs/project/ACTIVE_CURRENT.md,3608,priority rule document
+docs/project/ARCHITECTURE_v1.md,15178,priority rule document
 docs/project/PROCESS_ONLY_POLICY.md,2104,priority rule document
 docs/project/REPOSITORY_MANIFEST_SCOPE.md,683,priority rule document
-docs/project/ROADMAP.md,2521,priority rule document
-docs/project/SOURCE_REGISTRY.md,1907,priority rule document
+docs/project/ROADMAP.md,3328,priority rule document
+docs/project/SOURCE_REGISTRY.md,3439,priority rule document
 docs/project/UNIVERSAL_CORE_PACKAGE_v1_3.md,6737,priority rule document
 migration/PROJECT_INSTRUCTIONS_SNIPPET.md,1497,support
 migration/WHAT_TO_KEEP_IN_SOURCES.md,894,support
@@ -110,5 +111,5 @@ tools/xml_patch/validate_confirmed_ts_schema.py,1056,tool/script/schema
 tools/xml_patch/validate_elementchain.py,1206,tool/script/schema
 validation/AUTOMATIC_MASTERING_METER_VALIDATION.md,1632,validation/audit
 validation/CONFLICT_SCAN.csv,1601,validation/audit
-validation/FILE_AUDIT.csv,15434,validation/audit
+validation/FILE_AUDIT.csv,15560,validation/audit
 validation/MENTAL_EXPERIMENT_REPORT.md,2616,validation/audit
